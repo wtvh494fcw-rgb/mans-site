@@ -1,0 +1,64 @@
+
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мой Сайт | Мансур</title>
+    <style>
+        /* Стили — это "одежда" сайта */
+        body {
+            font-family: sans-serif;
+            margin: 0;
+            background-color: #f0f2f5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            max-width: 400px;
+            width: 100%;
+            overflow: hidden;
+            text-align: center;
+        }
+        .photo-header {
+            width: 100%;
+            height: 250px;
+            object-fit: cover; /* Фото не сжимается, а обрезается под размер */
+        }
+        .content {
+            padding: 20px;
+        }
+        h1 { color: #333; }
+        p { color: #666; line-height: 1.6; }
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 25px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+        .btn:hover { background: #0056b3; }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="https://picsum.photos/id/237/400/250" alt="Мое фото" class="photo-header">
+        
+        <div class="content">
+            <h1>Привет, я Мансур!</h1>
+            <p>Это мой первый проект на GitHub. Я учусь создавать сайты и это только начало. Здесь будут мои идеи и код.</p>
+            
+            <a href="https://t.me/your_username" class="btn">Написать мне</a>
+        </div>
+    </div>
+
+</body>
+</html>
